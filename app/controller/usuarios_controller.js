@@ -12,10 +12,10 @@ var UsuariosController = {
       res.send(retorno.usuarios,200);
       }
     });
-      res.render('index',{
-          title: 'Estudos nodeJs :: CodeX Developing ::',
-          desenvolvedor: 'Marcelo Motta'
-      });
+    res.render('index',{
+        title: 'Estudos nodeJs :: CodeX Developing ::',
+        desenvolvedor: 'Marcelo Motta'
+    });
   }, // fim da index
 // fim da home_controller
 };
